@@ -1,0 +1,33 @@
+{
+  "name": "express-scaffolding",
+  "version": "1.0.0",
+  "description": "This is a scaffolding or a boilerplate code for Node-express projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Nandansv/node-express-scaffolding.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "scaffolding"
+  ],
+  "author": "Mr.Robot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nandansv/node-express-scaffolding/issues"
+  },
+  "homepage": "https://github.com/Nandansv/node-express-scaffolding#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "apiVersion" : "v1"
+}
